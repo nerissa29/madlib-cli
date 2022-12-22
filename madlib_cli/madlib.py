@@ -50,7 +50,16 @@ with open("story.txt", "w") as f:
 with open("story.txt", 'r') as  f:
     contents = f.read()
 
-# print(contents)
+print(contents)
 
+def read_template(filename):
+    with open(r'C:\Users\leyne\OneDrive\Desktop\python-projects-to-share\game_template.txt', 'r', encoding='utf-8') as file:
+        file_loc_content = file.read(100)
+    return file_loc_content
+print(read_template(r'C:\Users\leyne\OneDrive\Desktop\python-projects-to-share\game_template.txt'))
 
+def parse_template():
+    pass
 
+def merge():
+    pass
