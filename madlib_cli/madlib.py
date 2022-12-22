@@ -35,31 +35,31 @@ user_response_list.append(adjective4)
 plural = input("Enter Plural Noun: ")
 user_response_list.append(plural)
 
-plural = input("Enter Large Animal: ")
-
-plural = input("Enter Small Animal: ")
-
-plural = input("Enter a Girl's Name: ")
-
-adjective5 = input("Enter another Adjective: ")
-
-plural2 = input("Enter Plural Noun: ")
-
-adjective5 = input("Enter another Adjective: ")
-
-plural2 = input("Enter Plural Noun: ")
-
-plural2 = input("Enter a number (1-50): ")
-
-plural2 = input("Enter First Name: ")
-
-plural2 = input("Enter a number: ")
-
-plural2 = input("Enter Plural Noun: ")
-
-plural2 = input("Enter a number: ")
-
-plural2 = input("Enter Plural Noun: ")
+# plural = input("Enter Large Animal: ")
+#
+# plural = input("Enter Small Animal: ")
+# 
+# plural = input("Enter a Girl's Name: ")
+#
+# adjective5 = input("Enter another Adjective: ")
+#
+# plural2 = input("Enter Plural Noun: ")
+#
+# adjective5 = input("Enter another Adjective: ")
+#
+# plural2 = input("Enter Plural Noun: ")
+#
+# plural2 = input("Enter a number (1-50): ")
+#
+# plural2 = input("Enter First Name: ")
+#
+# plural2 = input("Enter a number: ")
+#
+# plural2 = input("Enter Plural Noun: ")
+#
+# plural2 = input("Enter a number: ")
+#
+# plural2 = input("Enter Plural Noun: ")
 
 
 
@@ -78,11 +78,11 @@ along with hundreds of other goodies for you to find.
 
 """
 # read in the story.txt file
-with open("story.txt", "w") as f:
-    f.write(f"I the {user_response_list[0]} and {user_response_list[1]} {user_response_list[2]} "
-            f"have {user_response_list[3]} {user_response_list[4]}'s {user_response_list[5]} sister "
-            f"and plan to steal her {user_response_list[6]} {user_response_list[7]}! \n"
-            f"What are a {Large Animal} and backpacking {Small Animal} ")
+# with open("story.txt", "w") as f:
+#     f.write(f"I the {user_response_list[0]} and {user_response_list[1]} {user_response_list[2]} "
+#             f"have {user_response_list[3]} {user_response_list[4]}'s {user_response_list[5]} sister "
+#             f"and plan to steal her {user_response_list[6]} {user_response_list[7]}! \n"
+#             f"What are a {Large Animal} and backpacking {Small Animal} ")
 
 
 print(user_response_list)
